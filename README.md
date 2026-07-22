@@ -1,6 +1,8 @@
-## Zoey Cao
-
-**Full Stack Developer · Melbourne, Australia**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Zoey Cao — Full Stack Developer, Melbourne, Australia" src="assets/banner-light.svg">
+</picture>
 
 I build production systems end to end — API contracts, typed services, UI, and the pipelines that ship them. Lately that means AI-backed products: agent orchestration, retrieval over real corpora, and a hard line between what a model may decide and what plain code must enforce. I care more about systems you can reason about than clever ones — explicit state machines, clear domain boundaries, and tests that catch real regressions.
 
@@ -17,16 +19,11 @@ AWS Certified Solutions Architect – Associate.
 
 ### Tech
 
-```
-Languages   C# · TypeScript · Python · JavaScript
-Frontend    React · Next.js · Vue · Tailwind CSS · Zustand
-Backend     ASP.NET Core · FastAPI · Django / DRF · Flask · Express
-Data        PostgreSQL · MS SQL · Cosmos DB · MongoDB · Redis · pgvector
-AI          Anthropic Claude · Claude Code · OpenAI · CrewAI · LangGraph · RAG
-Cloud       Azure · AWS · GCP · Firebase
-Infra       Docker · Terraform · Bicep · GitHub Actions
-Testing     pytest · Vitest · Jest · Playwright · React Testing Library
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/tech-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/tech-light.svg">
+  <img alt="Languages: C#, TypeScript, Python, JavaScript. Frontend: React, Next.js, Vue, Tailwind CSS, Zustand. Backend: ASP.NET Core, FastAPI, Django/DRF, Flask, Express. Data: PostgreSQL, MS SQL, Cosmos DB, MongoDB, Redis, pgvector. AI: Anthropic Claude, Claude Code, OpenAI, CrewAI, LangGraph, RAG. Cloud: Azure, AWS, GCP, Firebase. Infra: Docker, Terraform, Bicep, GitHub Actions. Testing: pytest, Vitest, Jest, Playwright, React Testing Library." src="assets/tech-light.svg">
+</picture>
 
 ### Contact
 
@@ -34,4 +31,10 @@ Testing     pytest · Vitest · Jest · Playwright · React Testing Library
 
 Open to software engineering roles in Melbourne.
 
-<!-- profile -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Zoeyyhc/Zoeyyhc/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Zoeyyhc/Zoeyyhc/output/snake-light.svg">
+  <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/Zoeyyhc/Zoeyyhc/output/snake-light.svg">
+</picture>
+
+<sub>The banner is regenerated on a schedule — it shows the real date and season in Melbourne, and takes its accent colour from the local time of day. Source: <a href="scripts/gen_assets.py"><code>scripts/gen_assets.py</code></a>.</sub>
